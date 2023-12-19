@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+}
+
+
+
+.bf {
+    border: 1px solid black;
+    border-radius: 35px;
+    background: #7c7878;
+    box-shadow: 0 0 1px dimgrey;
+    overflow: hidden;
+}
+
+#pop-up {
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    position: marker;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+body {
+    background-image: url('images/gibson-guitars-wall.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#btn {
+    margin-top: 700px;
+    font-weight: bolder;
+}
